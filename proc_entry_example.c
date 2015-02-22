@@ -3,6 +3,8 @@
 													 struct proc_dir_entry *parent, 
 													 const struct file_operations *proc_fops)
 */
+
+/* after compiling  and inserting cat /proc/Hello */
 #include <linux/proc_fs.h>
 #include <linux/kernel.h>
 #include <linux/init.h>
